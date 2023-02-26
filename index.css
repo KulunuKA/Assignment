@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.loginPage {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 1rem 4rem;
+    -webkit-box-shadow: -4px 0px 40px -23px rgba(0,0,0,0.51);
+    -moz-box-shadow: -4px 0px 40px -23px rgba(0,0,0,0.51);
+    box-shadow: -4px 0px 40px -23px rgba(0,0,0,0.51);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 2.3rem 1rem;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Comic Sans MS;
+    
+}
+
+.form h1 {
+    color: #df3e67;
+    font-size: 3rem;
+    text-align: center;
+    font-family: Lucida Handwriting;
+}
+
+.form #erroAlert {
+    color: red;
+    font-size: 0.8rem;
+    padding-top: 0.5rem;
+}
+
+.form p {
+    font-size: 1rem;
+    font-family: Comic Sans MS;
+}
+.form input {
+    margin: 1rem 0;
+    padding: 0.5rem;
+    text-align: center;
+    border: 1px solid #4c4c4c;
+    border-radius: 15px;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.form input:hover {
+    background: #e6e6e6;
+}
+
+.form .check-box label {
+    font-size: 1.2rem;
+}
+
+.form .check-box a {
+    padding-left: 2rem;
+    text-decoration: none;
+}
+
+.form button {
+    width: 50%;
+    margin-left: 8rem;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+    padding: 0.5rem;
+    border: 1px solid #4c4c4c;
+    transition: background-color 0.9s;
+}
+
+.form button:hover {
+    background: #e53d78;
+    color: #fff;
+}
+
+.form label {
+    margin: 0.5rem 0;
+}
+
+.form .social-media p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.form .social-media a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #4c4c4c;
+}
+.images {
+    position: relative;
+    padding: 0 1rem;
+    text-align: center;
+}
+.images img {
+    width: 100%;
+    height: 90vh;
+    padding: 1rem 0;
+}
+.images .text {
+    color: #262424;
+    font-size: 1.5rem;
+    position: absolute;
+    text-shadow:1px 1px #df3e67;
+    top: 3%;
+    left: 20%;
+}
+@media screen and (max-width:1056px) {
+    .loginPage{
+        margin: 1rem 2rem;
+    }
+    .form{
+        padding: 7rem 1rem;
+    }
+    .form h1 {
+        font-size: 2.5rem;
+    }
+    .form .check-box label {
+        font-size: 1.1rem;
+    }
+
+    .form button {
+        margin-left: 5rem;
+    }
+}
+@media screen and (max-width: 880px) {
+    .loginPage {
+        margin: 1rem;
+    }
+
+    .form {
+        padding: 2rem 1rem;
+    }
+
+    .form h1 {
+        font-size: 2rem;
+    }
+
+    .form .check-box label {
+        font-size: 1rem;
+    }
+
+    .form button {
+        margin-left: 5rem;
+        margin-bottom: 0.9rem;
+    }
+
+    .form .social-media p {
+        font-size: 1.1rem;
+    }
+
+    .form .social-media a {
+        font-size: 1.6rem;
+    }
+}
+@media screen and (max-width:768px) {
+    .loginPage {
+        flex-direction: column-reverse;
+        margin: 0 ;
+    }
+    
+    .form {
+        width: 80%;
+        padding: 2.3rem 1rem;
+    }
+    
+    .form h1 {
+        font-size: 1.5rem;
+    }
+    .form input{
+        margin: 0.5rem 0;
+    }
+    .form .check-box label {
+        font-size: 0.9rem;
+    }
+    
+    .form button {
+        margin-left: 5rem;
+        margin-bottom: 0.5rem;
+    }
+    .form .social-media p {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    .form .social-media a {
+        font-size: 1.5rem;
+    }
+    .images{
+        padding: 0;
+    }
+    .images img {
+        width: 100%;
+        height: 70vh;
+        padding: 0;
+    }
+}

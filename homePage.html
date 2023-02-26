@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="homePage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <!--______________ Navigation bar___________ -->
+    <div id="pop">
+        
+
+    <div class="nav">
+        <h2>___FASHION HUB___</h2>
+        <ul id="item">
+            <li><a href="#home" active>HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">CLASSES</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="#">LOGOUT</a></li>
+            <div class="icon">
+                <a href=""><i class="fa fa-twitter"></i></a>
+                <a href=""><i class="fa fa-youtube-play"></i></a>
+                <a href=""><i class="fa fa-facebook"></i></a>
+            </div>
+            <div class="profile"><a href="" s><img src="" alt="" id="pp" class="dp"></a>
+            </div>
+        </ul>
+        <i class="fa fa-bars" id="bar"></i>
+    </div>
+    
+    <!--_______________Background Image______________ -->
+
+    <div class="back" data-aos="fade-up">
+        <div class="overlay"></div>
+    </div>
+
+    <!-- _________________Create User Section_______________ -->
+
+    <div class="mid" id="mid">
+        <h2>New Way To Build A Beauty Lifestyle!</h2>
+        <p>UPGRADE YOUR FASHION</p>
+
+        <div class="create-user">
+            <div class="user-info">
+                <a href=""><img src="" alt="" class="dp"></a>
+                <a href="">
+                    <h3>Emilia Clarke</h3>
+                </a>
+                <a href="">
+                    <h5>Emilia@gmail.com</h5>
+                </a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dignissimos rerum minima
+                    expedita facilis earum. Aspernatur aperiam et nobis possimus?</p>
+                <div class="btn">
+                    <a href="#" class="border" onclick="create()" id="btn">CREATE USER</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- ___________________Create User form________________ -->
+    
+    <div class="dark" id="dk">
+        <div class="newUser" id="form">
+        <div class="join">
+            <h1>JOIN NOW</h1>
+            <button type="button" onclick="closeForm()">CLOSE</button>
+        </div>
+
+        <ul>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <input type="tel" placeholder="Mobile">
+            <input type="password" placeholder="Password">
+        </ul>
+        <div class="btn">
+            <button type="submit" class="border">CREATE</button>
+        </div>
+    </div>
+    </div>
+    
+
+    <!-- _________________Link Script File_____________ -->
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 500,
+            duration: 900,
+        });
+    </script>
+</body>
+
+</html>
